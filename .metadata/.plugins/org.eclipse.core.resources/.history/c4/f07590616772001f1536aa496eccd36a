@@ -1,0 +1,7 @@
+package com.one;
+
+public interface Shape {
+	float calculateArea();
+	float calculatePerimeter();
+
+}

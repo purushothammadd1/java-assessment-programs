@@ -1,0 +1,110 @@
+package com.java.files;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class FileDemo {
+	public static void main(String[] args) throws IOException  {
+//		createNewFile();
+//		createNewDirectory();
+//		currentWorkingDirectory();
+//		createTextFile();
+//		displayNames();
+//		writeDataFile();
+		readFile();
+	}
+
+	public static void readFile() throws IOException {
+		FileReader fr=new FileReader("abc.txt");
+		int i=fr.read();
+		while(i != -1) {
+			System.out.print((char)i);
+			i=fr.read();
+			
+		}
+		
+	}
+
+	public static void writeDataFile() throws IOException {
+		FileWriter fw=new FileWriter("abc.txt");
+		fw.write(65);
+		fw.write("TalentSprint\nFullStackJavaDeveloper\nPrivate\nLimited");
+		fw.write("\n");
+		char ch[]= {'a','b','c','d','e'};
+		fw.write(ch);
+		fw.flush();
+		fw.close();
+//		System.out.println(fw.toString());
+		
+	}
+
+	public static void displayNames() {
+		int dirCount = 0;
+		int jpgFileCount = 0;
+		int txtFileCount = 0;
+		int zipFileCount = 0;
+		String location ="C:\\Users\\91970\\eclipse-workspace2";
+		File f=new File(location);
+		
+		String [] names=f.list();
+		for(String name: names) {
+			File f1=new File(f,name);
+			
+			if(f1.isDirectory())
+				dirCount++;
+			if(f1.isFile()) {
+				if(name.endsWith(".png"))
+					jpgFileCount++;
+				if(name.endsWith(".txt"))
+					txtFileCount++;
+				if(name.endsWith(".zip"))
+					zipFileCount++;
+			}
+			System.out.println(name);
+		}
+		System.out.println("Total no of JPGFiles is :: "+jpgFileCount);
+		System.out.println("Total no of txtFiles is :: "+ txtFileCount);
+		System.out.println("Total no of zipFiles is :: "+zipFileCount);
+		System.out.println("Total no of Directory is :: "+dirCount);
+		
+	}
+
+	public static void createTextFile() throws IOException {
+		File f=new File("C:\\Users\\91970\\eclipse-workspace2\\FSD\\IPL Team","rcb.txt");
+		f.createNewFile();
+		System.out.println(f.exists());
+		
+	}
+
+	public static void currentWorkingDirectory() throws IOException {
+		File f1=new File("IPL Team");
+		f1.mkdir();
+		System.out.println(f1.exists());
+		File f2=new File("IPL Team","abc.txt");
+		f2.createNewFile();
+		System.out.println(f2.exists());
+		
+	}
+
+	private static void createNewDirectory() {
+		File f=new File("IPL Teams");
+		System.out.println(f.exists());
+		
+		f.mkdir();
+		System.out.println(f.exists());
+		
+	}
+
+	private static void createNewFile()throws IOException {
+		File f=new File("cricket.txt");
+		System.out.println(f.exists());
+		
+		f.createNewFile();
+		System.out.println(f.exists());
+		
+	}
+	
+
+}

@@ -1,0 +1,17 @@
+package com.two;
+
+public class Motorcycle extends Vehicle{
+	boolean hasSidecar;
+
+	Motorcycle(String fuelType, int wheels, double maxSpeed,boolean hasSidecar) {
+		super(fuelType, wheels, maxSpeed);
+		this.hasSidecar=hasSidecar;
+	}
+
+	@Override
+	double calculateTravelCost(double distance) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

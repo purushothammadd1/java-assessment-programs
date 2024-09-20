@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename source folder &apos;javaprograms/com.telusko.project1&apos; to &apos;teluskoprograms&apos;&#x0D;&#x0A;- Original project: &apos;javaprograms&apos;&#x0D;&#x0A;- Original element: &apos;javaprograms/com.telusko.project1&apos;&#x0D;&#x0A;- Renamed element: &apos;com.telusko.project1&apos;" description="Rename source folder &apos;com.telusko.project1&apos;" id="org.eclipse.jdt.ui.rename.source.folder" input="/com.telusko.project1" name="teluskoprograms" stamp="1722578479358" version="1.0"/>
+</session>

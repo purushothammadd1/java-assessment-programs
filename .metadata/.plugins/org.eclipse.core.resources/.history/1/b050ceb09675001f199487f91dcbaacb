@@ -1,0 +1,16 @@
+package com.two;
+
+public class Motorcycle extends Vehicle{
+
+	Motorcycle(String fuelType, int wheels, double maxSpeed) {
+		super(fuelType, wheels, maxSpeed);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	double calculateTravelCost(double distance) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

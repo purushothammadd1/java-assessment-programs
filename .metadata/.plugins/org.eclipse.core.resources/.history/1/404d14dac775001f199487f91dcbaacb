@@ -1,0 +1,13 @@
+package com.three;
+
+public class NegativeNumberCheck {
+	
+	public static void checkNumber(int number) throws NegativenumberException {
+		if(number < 0) {
+			throw new NegativenumberException("Error: Negative number entered!");
+		} else {
+			System.out.println("You entered a positive Number: "+ number);
+		}
+	}
+
+}

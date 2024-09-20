@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.codeing.abstarctclass&apos; to &apos;com.module1.interfaceconcept&apos;&#x0D;&#x0A;- Original project: &apos;javaprograms&apos;&#x0D;&#x0A;- Original element: &apos;javaprograms/oops/com.codeing.abstarctclass&apos;&#x0D;&#x0A;- Renamed element: &apos;javaprograms/oops/com.module1.interfaceconcept&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;com.codeing.abstarctclass&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/oops&lt;com.codeing.abstarctclass" name="com.module1.interfaceconcept" qualified="false" references="true" stamp="1716969524999" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+package com.five.ecommerce;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ECommerceExample {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		ShoppingCart cart=new ShoppingCart();
+		
+		//sample product catalog
+		List<Product> products=new ArrayList<>();
+		products.add(new Product(1,"Laptop",800.00));
+		products.add(new Product(2,"Smartphone",500.00));
+		products.add(new Product(3,"HeadPhones",50.00));
+		products.add(new Product(4,"SmartWatch",150.00));
+	}
+
+}

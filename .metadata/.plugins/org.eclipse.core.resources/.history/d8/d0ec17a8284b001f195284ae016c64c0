@@ -1,0 +1,16 @@
+package com.interview.pract;
+
+public class SortEmployeesUsingStreams {
+	
+	public static void main(String[] args) {
+		
+	}
+	static class Employee{
+		
+		private int empId;
+		private String name;
+		
+		
+	}
+
+}

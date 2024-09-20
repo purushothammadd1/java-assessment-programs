@@ -1,0 +1,20 @@
+package student;
+
+import java.io.IOException;
+import java.util.List;
+
+public class RankerTest {
+	public static void main(String[] args) {
+		String filePath="/Desktop/files/Marks";
+		FileOperationsHandler f =new FileOperationsHandler();
+		try {
+			List<Student> allStudents =f.readAll(filePath);
+			new AccurateRanker().rank(allStudents);
+			f.writeAll(allStudents, "/Desktop/files/output");
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

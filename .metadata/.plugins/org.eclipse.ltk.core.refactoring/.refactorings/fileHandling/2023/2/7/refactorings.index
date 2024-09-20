@@ -1,0 +1,15 @@
+1676270329339	Rename type 'MaximunmScore'
+1676357825217	Delete element
+1676443541219	Delete element
+1676455471174	Delete element
+1676456161399	Encapsulate field 'id'
+1676456237477	Encapsulate field 'name'
+1676456243226	Encapsulate field 'price'
+1676456248891	Encapsulate field 'category'
+1676532588514	Encapsulate field 'Emp_id'
+1676532598855	Encapsulate field 'Emp_name'
+1676532611252	Encapsulate field 'salary'
+1676553064137	Encapsulate field 'employee'
+1676553071056	Encapsulate field 'date'
+1676553080087	Encapsulate field 'isPresent'
+1676553420068	Delete element

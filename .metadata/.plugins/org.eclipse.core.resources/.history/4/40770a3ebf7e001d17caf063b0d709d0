@@ -1,0 +1,16 @@
+package nestedloop;
+
+public class AlphabetLetter_OPQ {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		letterAlphabet(7);
+
+	}
+
+	public static void letterAlphabet(int n) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

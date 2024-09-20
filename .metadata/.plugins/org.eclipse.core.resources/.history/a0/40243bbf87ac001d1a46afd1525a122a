@@ -1,0 +1,15 @@
+package student;
+
+import java.util.Collections;
+import java.util.List;
+
+public class AccurateRanker {
+	public void rank(List<Student> students) {
+		Collections.sort(students, new Ranker());
+		int rank= 1;
+		for(Student s: students)
+			s.setRank( rank++);
+//		for()
+	}
+
+}

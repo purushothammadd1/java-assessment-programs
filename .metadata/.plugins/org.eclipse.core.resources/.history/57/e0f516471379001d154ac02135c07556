@@ -1,0 +1,21 @@
+package conditionalstatements;
+
+import java.util.Scanner;
+
+public class PercentageGradeMarks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//System.out.println("Enter the Marks: ");
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the Marks of Sub1: ");
+		int sub1=sc.nextInt();
+		
+		int sub2=sc.nextInt();
+		System.out.println("Enter the Marks of Sub2:");
+		int sub3=sc.nextInt();
+		System.out.println("Enter the marks of sub3:");
+
+	}
+
+}

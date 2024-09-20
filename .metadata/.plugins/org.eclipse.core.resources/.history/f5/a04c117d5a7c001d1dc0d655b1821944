@@ -1,0 +1,25 @@
+package patterns;
+
+import java.util.Scanner;
+
+public class CharPattern {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a row value:");
+		int row=sc.nextInt();
+		System.out.println("Enter a column value:");
+		int column=sc.nextInt();
+		charPattern(row,column);
+		
+
+	}
+
+	public static void charPattern(int row, int column) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

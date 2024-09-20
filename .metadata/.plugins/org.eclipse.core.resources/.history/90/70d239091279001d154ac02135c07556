@@ -1,0 +1,28 @@
+package conditionalstatements;
+
+import java.util.Scanner;
+
+public class LeapYear {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter the Year:");
+		Scanner sc=new Scanner(System.in);
+		int year=sc.nextInt();
+		
+		leapYear(year);
+
+	}
+
+	public static void leapYear(int year) {
+		// TODO Auto-generated method stub
+		if(year%4==0) {
+			System.out.println("This is a Leap Year "+ year);
+		}
+		else {
+			System.out.println(year  + " is not a Leap Year!");
+		}
+		
+	}
+
+}

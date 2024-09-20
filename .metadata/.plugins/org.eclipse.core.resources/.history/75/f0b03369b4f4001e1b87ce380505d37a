@@ -1,0 +1,14 @@
+package com.module1;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class TempertureConverterTest {
+	
+	@Test
+	void testToFahrenhit() {
+		assertEquals(98.6f, TempertureConverter.toFahrenhit(37f),0.001f);
+		assertEquals(212f, TempertureConverter.toFahrenhit(100f),0.001f);
+	}
+}

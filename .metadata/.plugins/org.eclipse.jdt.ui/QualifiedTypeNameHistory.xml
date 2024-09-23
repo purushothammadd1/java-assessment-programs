@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="javax.swing.DefaultBoundedRangeModel"/>
-    <fullyQualifiedTypeName name="java.lang.Runnable"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="com.module1.java.OverloadingHelp"/>
     <fullyQualifiedTypeName name="com.java.oops.Movies"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -38,7 +34,6 @@
     <fullyQualifiedTypeName name="com.two.Vehicle"/>
     <fullyQualifiedTypeName name="com.two.Motorcycle"/>
     <fullyQualifiedTypeName name="com.three.NegativenumberException"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="com.five.Animal"/>
     <fullyQualifiedTypeName name="com.five.Vehicle"/>
     <fullyQualifiedTypeName name="com.five.ecommerce.Product"/>
@@ -47,11 +42,9 @@
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="com.five.ecommerce.ShoppingCart"/>
     <fullyQualifiedTypeName name="com.five.ecommerce.Promotion"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.five.ecommerce.PaymentGateway"/>
     <fullyQualifiedTypeName name="com.five.ecommerce.Session"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -60,4 +53,11 @@
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.Eight.EvenOddThreadsWithCollections.EvenThread"/>
+    <fullyQualifiedTypeName name="com.Eight.EvenOddThreadsWithCollections.OddThread"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
 </qualifiedTypeNameHistroy>
